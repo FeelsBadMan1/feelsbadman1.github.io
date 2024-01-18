@@ -87,24 +87,30 @@ body {
     margin-top: 15px;
 }
 
-.cmn-btn.btn-bg-1 {
-    background: #6176f6;
-    color: #fff;
-    border: 2px solid transparent;
-    border-radius: 3px;
-    text-decoration: none;
-    padding: 5px;
-    display: block;
+.btn {
+  border: 2.5px #fff;
+  background: #242424;
+  color: #FFF;
+  padding: 10px 17px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  outline: 0;
+  transition: 600ms;
+  font-size: 14px;
+  font-family: "CustFont";
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2.5px solid #303030;
+  display: block;
 }
 
-.cmn-btn.btn-bg-2 {
-    background: #ED4545;
-    color: #fff;
-    border: 2px solid transparent;
-    border-radius: 3px;
-    text-decoration: none;
-    padding: 5px;
-    display: block;
+.cmn-btn.btn-bg-1:hover {
+  background: #6176f6;
+}
+
+.cmn-btn.btn-bg-2:hover {
+  background: #ED4545;
 }
 
 .footer {
